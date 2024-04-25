@@ -455,6 +455,9 @@ footer p {
   font-size: 9rem;
   position: absolute;
   top: 200px;
+  /* border: 1px solid #000;
+  background-color: #eee;
+  border-radius: 15px; */
 }
 .owl-nav{
   display: flex;
@@ -462,6 +465,10 @@ footer p {
   justify-content: space-between;
 }
 
+.owl-prev span{
+  left: -40px;
+}
 .owlarrows{
   position: relative;
 }
+
