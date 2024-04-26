@@ -461,7 +461,9 @@ footer p {
   text-align: center;
   justify-content: space-between;
 }
-
+.owl-prev span{
+  left: -35px;
+}
 .owlarrows{
   position: relative;
 }
