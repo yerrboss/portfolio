@@ -10,6 +10,10 @@
   #projects {
     height: fit-content;
   }
+    #contact {
+    /* height: 90vh; */
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,6 +48,12 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .owl-theme .owl-dots {
+    padding-top: 0px;
+  }
+    #contact {
+    height: 90vh;
   }
 }
 
@@ -99,5 +109,13 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  /* owl-nav */
+  .owl-nav {
+    display: none;
+  }
+  .owl-theme .owl-dots {
+    padding-top: 25px;
   }
 }
