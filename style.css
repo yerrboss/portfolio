@@ -467,3 +467,6 @@ footer p {
 .owlarrows{
   position: relative;
 }
+.owl-next span:hover, .owl-prev span:hover {
+  color: #000;
+}
